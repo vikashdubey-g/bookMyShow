@@ -1,0 +1,19 @@
+
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seat.notBooked {
+  border: 1px solid #000;
+}
+
+.seat.booked {
+  border: 1px solid #f00;
+}

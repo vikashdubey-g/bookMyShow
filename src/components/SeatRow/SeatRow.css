@@ -1,0 +1,15 @@
+
+.seat-row {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.row-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.seats {
+  display: flex;
+}
